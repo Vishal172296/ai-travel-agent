@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ai-travel-agent"
+version = "0.2.0"
+description = "Free-tier AI travel agent using Gemini, LangGraph, Streamlit and SerpApi"
+authors = ["Vishal"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+python-dotenv = "^1.0.1"
+langchain = "^0.2.0"
+langchain-google-genai = ">=2.1.0"
+langgraph = "^0.2.0"
+grandalf = "^0.8"
+streamlit = "^1.38.0"
+serpapi = "^0.1.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

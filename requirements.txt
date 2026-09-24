@@ -1,0 +1,16 @@
+python-dotenv
+langchain
+langchain-core
+langchain-groq
+langgraph
+langgraph-checkpoint
+grandalf
+streamlit
+serpapi
+sendgrid
+pydantic
+pandas
+numpy
+reportlab
+pypdf
+pytest
